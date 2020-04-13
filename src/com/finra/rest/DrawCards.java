@@ -23,7 +23,7 @@ public class DrawCards {
 		.then().log().all().assertThat().statusCode(200).body("remaining", equalTo(50)).extract().response().asString();
 		JsonPath js1= new JsonPath(response1);
 		int count= js1.getInt("cards.size()");
-		Assert.assertEquals(count, 3);
+		Assert.assertEquals(count, 3); // checking the cards retrieved count
 	}
 
 }
