@@ -8,8 +8,11 @@ Install
 This project requires java 1.8.0_151 and the following Java jars installed:
 
 org.testng
+
 io.rest-assured
+
 hamcrest-library
+
 com.googlecode.json-simple
 
 Code
