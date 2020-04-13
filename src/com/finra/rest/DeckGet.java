@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 @Test
-public class DeckGet {
+public class NewDeck {
     
 	public  String NewDeck() {
 		 RestAssured.baseURI = "http://deckofcardsapi.com/api";
