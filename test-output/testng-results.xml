@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DeckOfCardsRestAssured" duration-ms="6" started-at="2020-04-13T00:49:45Z" finished-at="2020-04-13T00:49:45Z">
+    <groups>
+    </groups>
+    <test name="all-tests" duration-ms="6" started-at="2020-04-13T00:49:45Z" finished-at="2020-04-13T00:49:45Z">
+    </test> <!-- all-tests -->
+  </suite> <!-- DeckOfCardsRestAssured -->
+</testng-results>

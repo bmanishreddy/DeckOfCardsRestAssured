@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DeckOfCardsRestAssured]">
+  <test thread-count="5" name="all-tests(failed)">
+    <classes>
+      <class name="com.finra.rest.DrawCards">
+        <methods>
+          <include name="DrawNCard"/>
+        </methods>
+      </class> <!-- com.finra.rest.DrawCards -->
+    </classes>
+  </test> <!-- all-tests(failed) -->
+</suite> <!-- Failed suite [DeckOfCardsRestAssured] -->
