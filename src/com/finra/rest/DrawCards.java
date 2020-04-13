@@ -12,7 +12,7 @@ public class DrawCards {
 	public void DrawNCard()
 	{
 		RestAssured.baseURI = "http://deckofcardsapi.com/api";
-		DeckGet dg= new DeckGet();
+		DeckGet dg= new NewDeck();
 		String Id= dg.NewDeck();
 		given().log().all()
 		.when().get("deck/"+Id+"/draw")
