@@ -16,8 +16,7 @@ public class DeckGet {
 		 JsonPath js= new JsonPath(response);
 		 String deckId= js.getString("deck_id");
 		 System.out.println(deckId);
-		 
-		 return deckId;
+		 return deckId; //retrieveing deck_id to pass to draw cards aPI
 		 
 	}
 
